@@ -1,0 +1,73 @@
+Arguments: 
+  /usr/local/lib/node_modules/node/bin/node /home/sultan/.yarn/bin/yarn.js add react -router-dom
+
+PATH: 
+  /var/www/html/GCloud/google-cloud-sdk/bin:/home/sultan/.yarn/bin:/home/sultan/.config/yarn/global/node_modules/.bin:/bin/lscript:/bin/lscript:/bin/lscript:/bin/lscript:/home/sultan/miniconda3/condabin:/home/sultan/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/sultan/.config/composer/vendor/bin
+
+Yarn version: 
+  1.22.15
+
+Node version: 
+  14.17.5
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/-d: Not found
+      at Request.params.callback [as _callback] (/home/sultan/.yarn/lib/cli.js:67031:18)
+      at Request.self.callback (/home/sultan/.yarn/lib/cli.js:140885:22)
+      at Request.emit (events.js:400:28)
+      at Request.<anonymous> (/home/sultan/.yarn/lib/cli.js:141857:10)
+      at Request.emit (events.js:400:28)
+      at IncomingMessage.<anonymous> (/home/sultan/.yarn/lib/cli.js:141779:12)
+      at Object.onceWrapper (events.js:519:28)
+      at IncomingMessage.emit (events.js:412:35)
+      at endReadableNT (internal/streams/readable.js:1317:12)
+      at processTicksAndRejections (internal/process/task_queues.js:82:21)
+
+npm manifest: 
+  {
+    "name": "reseach_facility",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+      "@testing-library/jest-dom": "^5.16.5",
+      "@testing-library/react": "^13.4.0",
+      "@testing-library/user-event": "^13.5.0",
+      "react": "^18.2.0",
+      "react-dom": "^18.2.0",
+      "react-scripts": "5.0.1",
+      "web-vitals": "^2.1.4"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+      "extends": [
+        "react-app",
+        "react-app/jest"
+      ]
+    },
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
