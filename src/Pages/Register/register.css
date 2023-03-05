@@ -1,0 +1,55 @@
+.register{
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(73, 67, 67, 0.5),rgba(73, 67, 67, 0.5)),
+    url("https://cdn.shopify.com/s/files/1/0587/1966/6342/products/Pastel_Wireless_Keyboard_and_Mouse_Set.png?v=1641767979");
+    background-size: cover;   
+}
+
+.registerTitle{
+    font-size: 50PX;
+}
+
+.registerForm {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.registerForm > label {
+    margin: 15px;
+}
+
+.registerInput {
+
+    padding: 10px;
+    background-color: #fff; 
+    border: none;
+
+}
+
+.registerBtn {
+    margin-top: 20px ;
+    cursor: pointer;
+    background-color: lightblue;
+    border: none;
+    color: rgb(17, 16, 16);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.loginBtn {
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: rgb(206, 128, 97);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+
+}

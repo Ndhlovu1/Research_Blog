@@ -1,0 +1,70 @@
+.sideBar {
+    flex: 3 ;
+    margin: 20px;
+    padding-bottom: 30px;
+    background-color: papayawhip;
+    border-radius: 10px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sideBarItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sideBarTitle {
+    margin: 10px;
+    padding: 5px;
+    width: 80%;
+    border-top: 1px solid #a7a4a4;
+    border-bottom: 1px solid #a7a4a4;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: center;
+}
+/*CHANGE THE SIDEBAR IMAGE*/
+.sideBarItem > img {
+    margin-top: 20px;
+    width: 360px;
+    height: 220px;
+}
+
+.sideBarItem > p {
+    padding: 30px;
+
+}
+
+.sideBarList{
+    list-style: none;
+    margin-bottom: 30px;
+    
+}
+
+.sideBarListItem {
+    display: inline-block;
+    width: 50%;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.sideBarSocial{
+    margin-top: 15px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+}
+
+.sideBarIcon {
+    font-size: 15px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+
+
+
